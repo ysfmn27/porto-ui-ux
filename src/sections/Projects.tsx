@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { ProjectCard } from '../components/ProjectCard';
+import porto1 from '../assets/images/portfolio1.png';
+import porto2 from '../assets/images/porto2.png';
+import porto3 from '../assets/images/travelnest.png';
+import porto4 from '../assets/images/litera.png';
+import porto5 from '../assets/images/web3hire.png';
+import porto6 from '../assets/images/CozyBean.png';
 
 const CATEGORIES = ['All', 'Mobile App', 'Web Design'];
 
@@ -8,7 +14,7 @@ const PROJECTS = [
     id: 1,
     title: 'Learnify Education App',
     description: 'Learnify is a digital learning application specifically designed to help high school students understand subject matter in a more interactive, interesting and fun way. Learnify combines learning videos, interactive practice questions, and gamification systems such as leaderboards and achievement badges.',
-    image: '/assets/images/portfolio1.png',
+    image: porto1,
     tags: ['UI Design', 'Education App', 'App Design'],
     category: 'Mobile App' , 
   },
@@ -16,7 +22,7 @@ const PROJECTS = [
     id: 2,
     title: 'Onboarding FinSmart App',
     description: 'Manage personal finances smarter and without stress',
-    image: '/assets/images/porto2.png',
+    image: porto2,
     tags: ['UI Design', 'Prototyping', 'App Design'],
     category: 'Mobile App',
   },
@@ -24,7 +30,7 @@ const PROJECTS = [
     id: 3,
     title: 'TravelNest Landing Page',
     description: 'Travelnest is a company engaged in tourism services and this is the companys landing page.',
-    image: '/assets/images/travelnest.png',
+    image: porto3,
     tags: ['Web Design', 'UI Design', 'Travelling'],
     category: 'Web Design',
   },
@@ -32,7 +38,7 @@ const PROJECTS = [
     id: 4,
     title: 'Litera Apps',
     description: 'Litera is a library application.',
-    image: '/assets/images/litera.png',
+    image: porto4,
     tags: ['App Design', 'E-Library', 'UI Design'],
     category: 'Mobile App',
   },
@@ -40,7 +46,7 @@ const PROJECTS = [
     id: 5,
     title: 'Web3Hire Website',
     description: 'Web3Hire is a job search website in the web3 world.',
-    image: '/assets/images/web3hire.png',
+    image: porto5,
     tags: ['UI Design', 'Web Design', 'Interaction Design'],
     category: 'Web Design',
   },
@@ -48,7 +54,7 @@ const PROJECTS = [
     id: 6,
     title: 'CozyBean Landing Page',
     description: 'CozyBean is a coffee shop landing page',
-    image: '/assets/images/CozyBean.png',
+    image: porto6,
     tags: ['Web Design', 'Interaction Design', 'UI Design'],
     category: 'Web Design',
   },

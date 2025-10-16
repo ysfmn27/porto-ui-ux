@@ -1,5 +1,6 @@
 import React from 'react';
 import { Group, Code, Lightbulb, Users } from 'lucide-react';
+import profilePhoto1 from '../assets/images/photoprofile1.png';
 
 export const About: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ export const About: React.FC = () => {
             <div className="p-1 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600">
               <div className="overflow-hidden rounded-xl">
                 <img
-                  src="/assets/images/photoprofile1.png"
+                  src={profilePhoto1}
                   alt="Muhammad Yusuf Maulana working"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
                 />
